@@ -18,6 +18,7 @@ const BUILD_DIR = 'build/';
 const DIST_DIR = 'dist/';
 const DOCS_DEST = 'docs/4/';
 const SWATCHES = [
+  'darkness-peach',
   'cerulean',
   'cosmo',
   'cyborg',
@@ -166,7 +167,7 @@ module.exports = grunt => {
     },
     connect: {
       options: {
-        hostname: 'localhost',
+        hostname: '0.0.0.0',
         livereload: 35729,
         port: 3000,
         open: true
